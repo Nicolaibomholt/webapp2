@@ -1,0 +1,236 @@
+body {
+  font-family: 'helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+.Content{
+  flex: 1 0 auto;
+  padding-bottom:200px;
+
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Oxygen',
+    monospace;
+}
+
+.Intro {
+  
+  display: flex!important;
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+  height: 600px !important;
+  padding-top: 25px;
+  background:  linear-gradient(-90deg, #93B7BE ,#C9EDEF);
+
+}
+
+.svg-map{
+  height: 600px;
+}
+
+.makeStyles-root-1{
+  width: 100% !important;
+}
+
+.ListHeader {
+  margin-top: 50px;
+  .row{
+    height: 100%;
+    width: 90%;
+    margin-top: 25px;
+
+  }
+  .col-6{
+      margin: auto;
+  }
+}
+
+.List{
+  width: 80%;
+  margin: auto;
+  h3{
+    margin-top: 40px;
+    text-align: left;
+  }
+}
+
+.card-img-top{
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.Crop{
+  overflow: hidden;
+  position: relative;
+  height: 175px;
+}
+
+
+.chart{
+  margin-top: 30px;
+}
+.card-columns {
+  margin-top: 40px;
+  .card-title, .card-subtitle{
+    text-align: left;
+  }
+
+  .btn-secondary {
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+  }
+}
+
+.mySlider {
+  h3 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  
+
+  .btn-secondary {
+    width: 20%;
+    margin-top: 50px;
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+  }
+}
+
+.intro-text{
+  text-align: left;
+  padding-left: 50px !important;
+  
+  p{
+    text-align: justify;
+    max-width: 600px;
+  }
+}
+
+.Home{
+  position: relative;
+  min-height: 100vh;
+
+}
+
+.User {
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  .Intro{
+    height: 500px !important;
+    .row{
+      height: 100%;
+      width: 70%;
+      margin: auto;
+    }
+    .col{
+      width: 70%;
+
+        margin: auto;
+    }
+  }
+}
+
+.Footer{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  margin-top: 50px;
+  height: 150px;
+  width: 100%;
+    background: rgb(201, 201, 201) ;
+    
+    .row{
+      height: 100%;
+    }
+    .col{
+        margin: auto;
+    }
+
+    .img{
+      height: 100px;
+    }
+  }
+
+  .Projekt{
+
+    .Intro{
+      height: 100px !important;
+    }
+
+
+    .row{
+      margin: auto;
+      margin-top: 100px;
+      width: 90%;
+
+      
+      h3, h5{
+        text-align: left;
+      }
+
+      p{
+        text-align: justify;
+        width: 80%;
+      }
+    }
+  }
+
+
+  .SuggestedProjects{
+
+    .Intro{
+      height: 100px !important;
+    } 
+  }
+
+  .nav-tabs {
+    border-bottom: 1px solid #0000006e !important;
+
+    li:hover a {
+    border: none;
+    background: none;
+    }
+}
+
+.Proces{
+
+  .Intro{
+    height: 100px !important;
+  } 
+
+  .Proces-Content{
+    margin-top: 50px !important;
+    width: 80%;
+    margin: auto;
+
+    h3{
+      text-align: left;
+      margin-bottom: 50px;
+    }
+  }
+}
